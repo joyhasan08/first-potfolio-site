@@ -4,9 +4,12 @@
 /* nav bar style*/
 nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -18,4 +21,19 @@ font-size: 45px;
 font-weight: 800;
 font-style: normal; /*optional css*/
 line-height: normal; /*optional css*/
+}
+.orgText{
+    color: #FD6E0A;
+}
+.orgButton{
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    border: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding: 15px 35px;
 }
