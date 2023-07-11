@@ -4,6 +4,7 @@
 /* nav bar style*/
 .headerTop{
     background: #FFF8F3;
+    padding-bottom: 10px;
 }
 nav {
     display: flex;
@@ -40,6 +41,7 @@ line-height: normal; /*optional css*/
     font-size: 20px;
     color: white;
     padding: 15px 35px;
+ 
 }
 
 /*banner part */
@@ -47,6 +49,8 @@ line-height: normal; /*optional css*/
 .banner{
     background-color: #FFF8F3;;
     padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 .headerText{
     color:  #181818;
@@ -54,15 +58,19 @@ line-height: normal; /*optional css*/
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding: none;
+    margin: none;
 }
 .hi{
     color: #474747;
-    font-size: 45px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
 }
-.hi-msg{
+.msg{
     display: flex;
     width: 585px;
     flex-direction: column;
@@ -71,4 +79,13 @@ line-height: normal; /*optional css*/
     font-weight: 400;
     line-height: 30px;
     color: #757575;
+}
+.Profile{
+    
+    width: 440px;   
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    justify-content: space-around;
 }
