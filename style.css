@@ -173,14 +173,51 @@ main{
 
 }
 /* resume section*/
+.cv-button{
+    text-align: center;
+    margin-top: 100px;
+}
 .resume-title{
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 100px;
+    margin-top: 150px;
 
     
 }
 .resume-section{
     display: flex;
+    justify-items: center;
+}
+.rs-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.rs-academy{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.rs-story{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+.experience{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.education{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
 }
