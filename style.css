@@ -103,30 +103,15 @@ line-height: normal; /*optional css*/
 }
 
 
-/*
-.about{
-    width: 1140px;
-    height: 550px;
-    border-color:black;
-    border-radius: 10px;
-    background: #FFF8F3;
-    justify-content: center;
-    
-}
-main .hi{
-    text-align: center;
-}
-main .msg{
-    text-align: center;
-    color: #FD6E0A;
-}
-*/
 /*About part*/
+main{
+    max-width: 1140px;
+    margin: 0% auto; /*for center aline*/
+}
 .about{
-    width: 1140px;
-    height: 550px;
     background: #FFF8F3;
     margin: 130px;
+
 
 }
 .about-tile{
@@ -149,4 +134,12 @@ main .msg{
     line-height: 30px;
     padding: 50px 50px;
     
+}
+.info-container{
+    display: flex;
+    justify-content: space-around; /*for spacing the info-container div*/
+}
+.about-info{
+    
+    text-align: center;
 }
