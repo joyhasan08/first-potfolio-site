@@ -55,8 +55,7 @@ line-height: normal; /*optional css*/
 /*banner part */
 
 .banner{
-    background-color: #FFF8F3;;
-     
+    background-color: #FFF8F3;;    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +67,7 @@ line-height: normal; /*optional css*/
 }
 .headerText{
     color:  #181818;
-    font-size: 85px;
+    font-size: 5em;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -80,9 +79,7 @@ line-height: normal; /*optional css*/
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    margin-bottom: 0px;
-    border-bottom: 0px;
-    padding-bottom: 0px;
+  
 }
 .msg{
     width: 585px;
@@ -92,19 +89,25 @@ line-height: normal; /*optional css*/
     color: #757575;
 }
 .Profile{
-    
-    width: 440px;   
-    border-radius: 10px;
+    height: 500px;
     margin-right: 10%;
-    margin-bottom: 150px;
-    margin-top: 50px;
+    border-radius: 10%;
+    border: gold dashed;
     justify-content: center;
+ 
+   
+}
+.Profile img{
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+
 }
 
 
 /*About part*/
 main{
-    max-width: 70%;
+    max-width: 90%;
     margin: 0% auto; /*for center aline*/
     border: #FD6E0A solid;
 }
@@ -253,5 +256,12 @@ main{
     .resume-section{
         flex-direction: column;
     }
+    .banner{
+        flex-direction: column;
+    }
+    .Profile{
+
+    }
   
+    
 }
