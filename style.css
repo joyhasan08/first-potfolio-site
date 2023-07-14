@@ -63,7 +63,7 @@ line-height: normal; /*optional css*/
     
 }
 .greeting{
-    padding-left: 100px;
+    padding-left: 5%;
 
 }
 .headerText{
@@ -104,12 +104,13 @@ line-height: normal; /*optional css*/
 
 /*About part*/
 main{
-    max-width: 1140px;
+    max-width: 70%;
     margin: 0% auto; /*for center aline*/
+    border: #FD6E0A solid;
 }
 .about{
     background: #FFF8F3;
-    margin: 130px;
+    margin: 10%;
 
 
 }
@@ -119,7 +120,7 @@ main{
     text-align: center;
     color: #181818;
     line-height: normal;
-    padding-top: 100px;
+    padding-top: 10%;
     
 
 }
@@ -137,6 +138,7 @@ main{
 .info-container{
     display: flex;
     justify-content: space-around; /*for spacing the info-container div*/
+
 }
 .about-info{
     text-align: center;
@@ -189,7 +191,10 @@ main{
 }
 .resume-section{
     display: flex;
-    justify-items: center;
+    justify-items: center ;
+    border: solid green;
+    
+
 }
 .rs-title{
     color: #474747;
@@ -209,15 +214,44 @@ main{
     line-height: 28px;
     
 }
-.experience{
-    color: #474747;
-    font-size: 30px;
-    font-weight: 700;
 
-}
 .education{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 
+}
+.resume-collam {
+    justify-content: center;
+    border: hsl(340, 92%, 48%) solid;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .info-container{
+        flex-direction: column;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .resume-section{
+        flex-direction: column;
+    }
+  
 }
