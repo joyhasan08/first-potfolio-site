@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 100px;
+    
 }
 nav > ul{
     display: flex;
@@ -49,6 +49,7 @@ line-height: normal; /*optional css*/
     font-size: 20px;
     color: white;
     padding: 15px 35px;
+    margin: 5px;
  
 }
 
@@ -63,6 +64,7 @@ line-height: normal; /*optional css*/
 }
 .greeting{
     padding-left: 5%;
+    flex: 1;
 
 }
 .headerText{
@@ -70,7 +72,6 @@ line-height: normal; /*optional css*/
     font-size: 5em;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding: none;
     margin: none;
 }
@@ -82,26 +83,39 @@ line-height: normal; /*optional css*/
   
 }
 .msg{
-    width: 585px;
+    width: fit-content;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
     color: #757575;
+    flex-wrap: ;
 }
 .Profile{
-    height: 500px;
-    margin-right: 10%;
-    border-radius: 10%;
-    border: gold dashed;
+    
+    
+    
     justify-content: center;
+    flex: 1;
+    
+    border: green solid 2px;
  
    
 }
 .Profile img{
     border-radius: 10%;
-    width: 100%;
-    height: 100%;
+    width: 65%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+    
+    
 
+}
+.profilePic{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    justify-items: center;
+    
 }
 
 
@@ -260,8 +274,93 @@ main{
         flex-direction: column;
     }
     .Profile{
-
+/* nav section */
     }
+    nav {
+        display: flex;
+        flex-direction: column ;
+        justify-items: center;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    nav > ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li{
+        list-style: none;
+        text-decoration: none;
+        margin-right: 50px;
+    }
+    nav li a{
+        text-decoration: none;
+    }
+  /*btn desig*/
+  .orgButton{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    padding: 5px 15px;
+    margin: 5px;
+ 
+}
+
+/*profile pic*/
+.headerText{
+    color:  #181818;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    padding: none;
+    margin: 0;
+}
+.hi{
+    color: #474747;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0%;
   
+}
+.msg{
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    flex-wrap: wrap ;
+}
+.Profile{
+    
+    
+    
+    justify-content: center;
+    flex: 1;
+    
+  
+ 
+   
+}
+.Profile img{
+    border-radius: 10%;
+    
+   
+    margin-top: 5%;
+    
+    
+
+}
+.profilePic{
+    
+    width: fit-content;
+    justify-items: center;
+    
+}
+
     
 }
