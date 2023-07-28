@@ -27,6 +27,10 @@ nav li{
 }
 nav li a{
     text-decoration: none;
+    font-family: sans-serif;
+    color: #FD6E0A;
+    font-weight: bolder;
+    font-size: 24px;
 }
 .titleText{
 color: #181818;
@@ -96,7 +100,6 @@ line-height: normal; /*optional css*/
     justify-content: center;
     flex: 1;
     
-    border: green solid 2px;
  
    
 }
@@ -123,7 +126,7 @@ line-height: normal; /*optional css*/
 main{
     max-width: 90%;
     margin: 0% auto; /*for center aline*/
-    border: #FD6E0A solid;
+
 }
 .about{
     background: #FFF8F3;
@@ -209,7 +212,7 @@ main{
 .resume-section{
     display: flex;
     justify-items: center ;
-    border: solid green;
+
     
 
 }
@@ -240,7 +243,6 @@ main{
 }
 .resume-collam {
     justify-content: center;
-    border: hsl(340, 92%, 48%) solid;
     width: 80%;
 }
 
@@ -271,7 +273,7 @@ main{
         flex-direction: column;
     }
     .banner{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .Profile{
 /* nav section */
@@ -359,6 +361,18 @@ main{
     
     width: fit-content;
     justify-items: center;
+    
+}
+
+/*about section*/
+.about-msg{
+    text-align: center;
+    width: auto;
+    color:  #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px;
     
 }
 
